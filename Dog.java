@@ -28,7 +28,7 @@ public class Dog extends Animals {
 
     public int getSwim() {
         if (distanceSwim > swim) {
-            System.out.printf("%s проплыл %s метров, преутомился и не доплыл %s метров%n", name, swim, ( distanceSwim- swim));
+            System.out.printf("%s проплыл %s метров, переутомился и не доплыл %s метров%n", name, swim, ( distanceSwim- swim));
         }
         if (distanceSwim <= swim) {
             System.out.printf("%s проплыл %s метров%n", name, distanceSwim);
