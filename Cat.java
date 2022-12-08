@@ -19,7 +19,7 @@ public class Cat extends Animals {
 
     public int getRun() {
         if (distanceRun > run) {
-            System.out.printf("%s пробежал %s метров, преутомился и не добежал %s метров%n", name, run, (distanceRun - run));
+            System.out.printf("%s пробежал %s метров, переутомился и не добежал %s метров%n", name, run, (distanceRun - run));
         }
         if (distanceRun <= run) {
             System.out.printf("%s пробежал %s метров%n", name, distanceRun);
